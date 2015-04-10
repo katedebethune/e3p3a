@@ -52,7 +52,7 @@ function transform() {
 		});
 		// Mouseout changes the font color back to black
 		newSpan.addEventListener("mouseout", function( event ) {
-			event.target.style.color = "black";
+			event.target.style.color = "#333";
 		});
 		
 		// 2.2 Add the SPAN elements back to the original DIV
